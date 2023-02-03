@@ -7,7 +7,7 @@ const useGasPrices = (): {
     [denom: string]: string
   }
 } => {
-  const defaultGasPrices = { uusd: '0.456' }
+  const defaultGasPrices = { uusd: '0.75' }
 
   const { data: gasPrices = defaultGasPrices } = useQuery<{
     [denom: string]: string
